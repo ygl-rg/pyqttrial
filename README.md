@@ -1,0 +1,2 @@
+# pyqttrial
+for pyqt trials
