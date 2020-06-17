@@ -41,5 +41,7 @@ class MainWindow(qtw.QMainWindow):
 
 if __name__ == "__main__":
     app = qtw.QApplication(sys.argv)
+    windows_style = qtw.QStyleFactory.create('Windowsvista')
+    app.setStyle(windows_style)
     mw = MainWindow()
     sys.exit(app.exec())
